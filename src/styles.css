@@ -1,0 +1,22 @@
+* {
+  border: 1px dotted gray;
+  padding: 2px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+#text-input {
+  font-size: 2rem;
+  border: 0px;
+  width: 70%;
+}
+
+#text-input:focus {
+  outline: none;
+}
